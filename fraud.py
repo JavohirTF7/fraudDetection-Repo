@@ -63,7 +63,7 @@ input_var['merch_lat'] = [merch_lat]
 
 st.markdown("<br>", unsafe_allow_html= True)
 # display the users input variable 
-st.subheader('Users Input Variables', divider= True)
+st.subheader('Users Input Variables')
 st.dataframe(input_var)
 
 mer_chant= joblib.load('merchant_encoder.pkl')
