@@ -17,7 +17,7 @@ st.write('The primary objective of the project is to create a robust fraud detec
 st.markdown("<br>", unsafe_allow_html= True)
 st.markdown("<br>", unsafe_allow_html= True)
 
-data = pd.read_csv('fraudTrain.csv')
+data = pd.read_csv('fraud_deploy_df.csv')
 st.dataframe(data.drop('Unnamed: 0', axis = 1, inplace = True))
 # st.dataframe(ds.drop('trans_date_trans_time', axis = 1, inplace = True))
 # st.dataframe(ds.drop('unix_time', axis = 1, inplace = True))
