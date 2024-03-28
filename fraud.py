@@ -37,7 +37,8 @@ st.sidebar.markdown("<br>", unsafe_allow_html= True)
 
 
 # Declare user Input variables 
-st.sidebar.subheader('Input Variables', divider= True)
+st.sidebar.subheader('Input Variables')
+st.divider()
 new_unix= st.sidebar.number_input('new_unix_time')
 amt= st.sidebar.number_input('amt')
 cate_gory = st.sidebar.selectbox('category', data['category'].unique())
