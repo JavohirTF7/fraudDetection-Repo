@@ -79,7 +79,7 @@ input_var['state'] = state.transform(input_var[['state']])
 
 
 
-model = joblib.load('fraudDetectionModel.pkl')
+model = joblib.load('fraudDetectionModel1.pkl')
 predicted = model.predict(input_var)
 
 st.markdown("<br>", unsafe_allow_html= True)
