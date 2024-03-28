@@ -9,7 +9,7 @@ st.markdown("<h1 style = 'color: #008DDA; text-align: center; font-family: Helve
 st.markdown("<h4 style = 'margin: -30px; color: #FFB000; text-align: center; font-family: Brush Script MT'> Built By: ILO M.A </h4>", unsafe_allow_html = True)
 st.markdown("<br>", unsafe_allow_html= True)
 
-st.image('40027.jpg', use_column_width=True)
+st.image('fraudDetection-Repo\40027.png.crdownload', use_column_width=True)
 
 st.header('Project Background Information', divider = True)
 st.write('The primary objective of the project is to create a robust fraud detection solution capable of identifying and mitigating fraudulent transactions in real-time. By harnessing the power of machine learning algorithms, we seek to enhance the accuracy and efficiency of fraud detection while minimizing false positives. The project will utilize machine learning algorithms, including supervised learning, unsupervised learning, and anomaly detection techniques, to build predictive models for fraud detection. Historical transaction data containing both fraudulent and legitimate transactions will be used to train and validate the models. Feature engineering techniques will be applied to extract relevant features from the transaction data, such as transaction amount, location, time, and user behavior.')
